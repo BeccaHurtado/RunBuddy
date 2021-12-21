@@ -1,14 +1,15 @@
-# Project: Run Buddy
+# Run Buddy
 
-## Developer: Rebecca
-
-
-### Screenshots:
+## Purpose
+A website that offers fitness training services.
 
 
-#### Deployment: 
+## Built With
+* HTML
+* CSS
 
+## Website
+http://lernantino.github.io/run-buddy/
 
-
-
-#### Technology: HTML, CSS
+## Contribution
+Made with ❤️ by Rebecca Hurtado
