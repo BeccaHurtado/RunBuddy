@@ -13,3 +13,5 @@ http://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Rebecca Hurtado
+
+# Run Buddy Inc.
