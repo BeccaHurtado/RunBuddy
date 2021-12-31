@@ -27,7 +27,6 @@ header {
     top: 0;
     background-image: url(./images/hero-bg.jpeg);
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     background-position: 80%;
 }
@@ -102,7 +101,6 @@ section {
 .hero {
     background-image: url(./images/hero-bg.jpeg);
     background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -116,7 +114,10 @@ section {
     background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     color: #024e76;
+    width: 40%;
+    margin: 3.5%;
     border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -126,7 +127,6 @@ section {
 
 .hero-form p {
     margin: 5px 0 15px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .form-input {
@@ -156,8 +156,6 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    width: 40%;
-    margin: 3.5%;
     border-radius: 10px;
 }
 
@@ -316,11 +314,13 @@ section {
 }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     display: inline-block;
-    padding: 0 100px 20px 100px;
+    padding-bottom: 20px;
     border-bottom: 3px solid;
-    margin-bottom: 35px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     color: #024e76;
 }
 
@@ -367,10 +367,11 @@ section {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 .contact-form input:focus, .contact-form textare:focus {
-    background-color: rgba(2, 78, 118, 1);
+    background-color: rgba(255, 255, 255, 1);
     outline: none;
 }
 
